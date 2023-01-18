@@ -1,12 +1,12 @@
 .sidebar {
-  background-color: plum;
-  border-right: 0.5px solid white;
+  background-color: white;
+  border-right: 0.5px solid lightgray;
   min-height: 100vh;
   flex: 1;
 
   hr {
     height: 0;
-    border: 0.5px solid white;
+    color: lightgrey;
   }
 
   .top {
@@ -24,7 +24,7 @@
     .logo {
       font-size: 20px;
       font-weight: bold;
-      color: white;
+      color: #555;
     }
   }
 
@@ -42,11 +42,11 @@
         align-items: center;
         padding: 5px;
         cursor: pointer;
-        color: white;
+        color: #555;
 
         &:hover {
-            background-color: #ff7ecf;
-            color: white;
+            background-color: plum;
+            color: #555;
             font-weight: 900;
         }
 
@@ -58,12 +58,12 @@
             font-size: 13px;
             font-weight: 600;
             margin-left: 10px;
-            color: white;
+            color: #555;
         }
     }
 
     .title {
-        color: white;
+        color: #555;
         font-size: 12px;
         font-weight: bold;
         margin-top: 15px;
@@ -71,7 +71,7 @@
     }
 
     .icon {
-        background-color: white;
+        background-color: #555;
     }
   }
 
@@ -79,13 +79,13 @@
     display: flex;
     align-items: center;
     margin: 10px;
-    color:white;
+    color:#555;
     
     .coloroption {
         width: 20px;
         height: 20px;
         border-radius: 5px;
-        border: 2px solid #ff7ecf;
+        border: 2px solid plum;
         cursor: pointer;
         margin: 5px;
 
