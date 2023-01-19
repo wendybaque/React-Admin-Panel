@@ -21,7 +21,7 @@ const Featured = () => {
             styles={buildStyles({
               pathColor: "plum",
               textColor: "#555",
-              trailColor: "lightgray",
+              trailColor: "#DCDCDC",
               backgroundColor: "plum",
             })}
           />
