@@ -1,6 +1,6 @@
 import React from "react";
 import "./sidebar.scss";
-import favicon from "./favicon.png";
+import panel from "./panel.png";
 import DashboardIcon from "@mui/icons-material/Dashboard";
 import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 import AddBusinessIcon from "@mui/icons-material/AddBusiness";
@@ -18,7 +18,7 @@ const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
-        <img src={favicon} alt="favicon" />
+        <img src={panel} alt="favicon" />
         <span className="logo">WenDev Admin</span>
       </div>
       <hr />
