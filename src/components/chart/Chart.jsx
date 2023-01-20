@@ -17,10 +17,10 @@ const data = [
   { name: "June", Total: 1700 },
   { name: "July", Total: 1800 },
   { name: "August", Total: 800 },
-  { name: "September", Total: 700 },
-  { name: "October", Total: 1500 },
-  { name: "November", Total: 900 },
-  { name: "December", Total: 1200 },
+  { name: "Sept.", Total: 700 },
+  { name: "Oct.", Total: 1500 },
+  { name: "Nov.", Total: 900 },
+  { name: "Dec.", Total: 1200 },
 ];
 
 const Chart = ({ aspect, title }) => {
