@@ -35,6 +35,10 @@
       list-style: none;
       margin: 0;
       padding: 0;
+
+      .title {
+        color: white;
+      }
     }
 
     li {
@@ -58,7 +62,7 @@
         font-size: 13px;
         font-weight: 600;
         margin-left: 10px;
-        color: #555;
+        color: white;
       }
     }
 

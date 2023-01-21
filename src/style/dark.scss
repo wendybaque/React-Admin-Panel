@@ -1,0 +1,131 @@
+.app.dark {
+  background-color: #3e0027;
+  color: whitesmoke;
+  font-weight: 500;
+
+  .chart,
+  .featured,
+  .widget,
+  .navbar,
+  .homecontainer {
+    background-color: #3e0027;
+    color: whitesmoke;
+    font-weight: 500;
+
+    .chartgrid {
+      stroke: whitesmoke;
+      font-weight: 500;
+    }
+  }
+
+  .table {
+    background-color: #3e0027;
+    color: whitesmoke;
+    font-weight: 500;
+
+    .tablecell {
+      color: gray;
+      font-weight: 500;
+    }
+  }
+
+  .navbar {
+    color: #999;
+    border-color: #333;
+    font-weight: 500;
+
+    .search {
+      border-color: gray;
+      font-weight: 500;
+    }
+
+    .icon {
+      color: whitesmoke;
+      font-weight: 500;
+    }
+  }
+
+  .sidebar {
+    background-color: #3e0027;
+    border-color: #333;
+    color: whitesmoke;
+    font-weight: 500;
+
+    img {
+      display: none;
+    }
+
+    .top {
+      .logo {
+        color: #999;
+        color: whitesmoke;
+      }
+    }
+    hr {
+      border-color: #333;
+      color: whitesmoke;
+    }
+
+    ul {
+      color: whitesmoke;
+      li {
+        color: whitesmoke;
+        &:hover {
+          background-color: plum;
+          color: whitesmoke;
+          color: #333;
+        }
+
+        .icon {
+          color: #999;
+        }
+      }
+    }
+
+    .bottom {
+      color: whitesmoke;
+      font-weight: 500;
+    }
+  }
+
+  .widget {
+    color: whitesmoke;
+    font-weight: 500;
+
+    .left {
+      .title {
+        color: whitesmoke;
+        font-weight: 500;
+      }
+    }
+  }
+
+  .chart {
+    color: whitesmoke;
+    font-weight: 500;
+
+    .title {
+      color: whitesmoke;
+      font-weight: 500;
+    }
+  }
+
+  .datatable {
+    .datagrid {
+      color: gray;
+      font-weight: 500;
+      border: none;
+
+      .viewButton,
+      .deleteButton,
+      .cellWithStatus {
+        color: gray;
+        border: none;
+      }
+    }
+  }
+
+  input {
+    background-color: transparent;
+  }
+}

@@ -4,13 +4,18 @@ import List from "./pages/list/List.jsx";
 import Single from "./pages/single/Single.jsx";
 import New from "./pages/new/New.jsx";
 
+import "./style/dark.scss"
+
 import { productInputs, userInputs } from "./formSource";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useState } from "react";
 
 function App() {
+  const [dark, setDark] =useState(false);
+
   return (
-    <div className="App">
+    <div className={dark ? "app dark" : "app"}>
       <BrowserRouter>
         <Routes>
           <Route path="/">
