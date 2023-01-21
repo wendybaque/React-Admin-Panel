@@ -38,40 +38,40 @@
     }
 
     li {
-        display: flex;
-        align-items: center;
-        padding: 5px;
-        cursor: pointer;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      cursor: pointer;
+      color: #555;
+
+      &:hover {
+        background-color: plum;
         color: #555;
+        font-weight: 900;
+      }
 
-        &:hover {
-            background-color: plum;
-            color: #555;
-            font-weight: 900;
-        }
+      .icon {
+        font-size: 18px;
+      }
 
-        .icon {
-            font-size: 18px;
-        }
-
-        .span {
-            font-size: 13px;
-            font-weight: 600;
-            margin-left: 10px;
-            color: #555;
-        }
+      .span {
+        font-size: 13px;
+        font-weight: 600;
+        margin-left: 10px;
+        color: #555;
+      }
     }
 
     .title {
-        color: #555;
-        font-size: 12px;
-        font-weight: bold;
-        margin-top: 15px;
-        margin-bottom: 5px;
+      color: #555;
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 15px;
+      margin-bottom: 5px;
     }
 
     .icon {
-        background-color: #555;
+      background-color: #555;
     }
   }
 
@@ -79,25 +79,25 @@
     display: flex;
     align-items: center;
     margin: 10px;
-    color:#555;
-    
+    color: #555;
+
     .coloroption {
-        width: 20px;
-        height: 20px;
-        border-radius: 5px;
-        border: 2px solid plum;
-        cursor: pointer;
-        margin: 5px;
-        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      width: 20px;
+      height: 20px;
+      border-radius: 5px;
+      border: 2px solid plum;
+      cursor: pointer;
+      margin: 5px;
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
 
-        &:nth-child(1) {
-            background-color: white;
-        }
+      &:nth-child(1) {
+        background-color: white;
+      }
 
-        &:nth-child(2) {
-            background-color: #3e0027;
-        }
+      &:nth-child(2) {
+        background-color: #3e0027;
+      }
     }
   }
 }

@@ -13,13 +13,16 @@ import KeyIcon from "@mui/icons-material/Key";
 import SettingsSuggestIcon from "@mui/icons-material/SettingsSuggest";
 import ManageAccountsIcon from "@mui/icons-material/ManageAccounts";
 import LogoutIcon from "@mui/icons-material/Logout";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <div className="top">
         <img src={panel} alt="favicon" />
-        <span className="logo">WenDev Admin</span>
+        <Link to="/" style={{ textDecoration: "none" }}>
+          <span className="logo">WenDev Admin</span>
+        </Link>
       </div>
       <hr />
       <div className="center">
@@ -30,18 +33,23 @@ const Sidebar = () => {
             <span>Dashboard</span>
           </li>
           <p className="title">LISTS</p>
-          <li>
-            <AccountCircleIcon color="secondary" classname="icon" />
-            <span>Users</span>
-          </li>
-          <li>
-            <AddBusinessIcon color="secondary" classname="icon" />
-            <span>Products</span>
-          </li>
+          <Link to="/users" style={{ textDecoration: "none" }}>
+            <li>
+              <AccountCircleIcon color="secondary" classname="icon" />
+              <span>Users</span>
+            </li>
+          </Link>
+          <Link to="/products" style={{ textDecoration: "none" }}>
+            <li>
+              <AddBusinessIcon color="secondary" classname="icon" />
+              <span>Products</span>
+            </li>
+          </Link>
           <li>
             <PaymentIcon color="secondary" classname="icon" />
             <span>Orders</span>
           </li>
+
           <li>
             <LocalShippingIcon color="secondary" classname="icon" />
             <span>Delivery</span>
@@ -79,7 +87,8 @@ const Sidebar = () => {
           </li>
         </ul>
       </div>
-      <div className="bottom">Color options:
+      <div className="bottom">
+        Color options:
         <div className="coloroption"></div>
         <div className="coloroption"></div>
       </div>
