@@ -18,6 +18,17 @@
     }
   }
 
+  .home {
+    .homecontainer {
+      .listcontainer {
+        .listtitle {
+          color: whitesmoke;
+        font-weight: 500;
+        }
+      }
+    }
+  }
+
   .table {
     background-color: #3e0027;
     color: whitesmoke;
@@ -26,6 +37,13 @@
     .tablecell {
       color: gray;
       font-weight: 500;
+    }
+  }
+
+  .featured {
+    .title, .desc, .itemtitle, .itemresult {
+      color: whitesmoke;
+    font-weight: 500;
     }
   }
 
@@ -123,6 +141,7 @@
         border: none;
       }
     }
+    
   }
 
   input {
