@@ -75,13 +75,16 @@
             border-radius: 5px;
             -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
             box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-          }
 
-          button:hover {
-            color: white;
-            border: none;
-            background-color: purple;
-            border: 1px solid purple;
+            &:hover {
+              color: white;
+              border: none;
+              background-color: purple;
+              border: 1px solid purple;
+            }
+            &:disabled {
+              background-color: plum;
+            }
           }
         }
       }
